@@ -1,0 +1,21 @@
+.text {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    & p {
+      margin-bottom: 0;
+    }
+  }
+  .project {
+    position: relative;
+    overflow: hidden;
+    padding: 0 !important;
+    img{
+      width: 100%;
+    }
+  }

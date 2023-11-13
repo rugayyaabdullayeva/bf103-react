@@ -1,0 +1,16 @@
+.footer {
+  background-color:rgb(33, 37, 41);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 5rem;
+  font-size: 0.875em;
+
+  & a {
+    color: white;
+  }
+  & ul{
+    display: flex;
+    gap:  10px;
+  }
+}
